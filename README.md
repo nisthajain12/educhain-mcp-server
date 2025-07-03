@@ -138,6 +138,31 @@ Each tool (e.g., MCQ Generator, Lesson Planner) automatically saves responses vi
 Feel free to reach out for collaboration or questions!
 
 ---
+## 📚 Citation
+This project makes use of the following external tools and references:
+
+EduChain
+AI-based educational content generation engine.
+🔗 GitHub Repository
+📦 PyPI Package
+📖 Official documentation and usage examples provided by the EduChain team.
+
+Claude Desktop MCP Reference
+MCP (Multi-Modal Control Protocol) UI simulation is inspired by Claude-style desktop interactions.
+This implementation uses a local Tkinter GUI to simulate Claude-like functionality.
+
+If you're using this project in your own research or application, you may cite it as:
+
+bibtex
+Copy
+Edit
+@misc{nisthajain2025educhainmcp,
+  author       = {Nistha Jain},
+  title        = {EduChain MCP Server: AI-powered educational content interface},
+  year         = {2025},
+  howpublished = {\url{https://github.com/nisthajain12/educhain-mcp-server}},
+  note         = {Combines EduChain with a local MCP-compliant server and Claude-style desktop UI.}
+}
 
 ## ⚖️ License
 
@@ -159,24 +184,4 @@ furnished to do so, subject to the following conditions:
 ⭐️ Show Your Support
 If you found this useful, give it a ⭐️ on GitHub!
 
-## 📝 Citation
-This project makes use of the following external tools and libraries:
-
-EduChain: AI-based educational content generator
-EduChain GitHub | Documentation
-
-Multi-Modal Control Protocol (MCP):
-Reference: Anthropic's Claude Desktop and related MCP SDK usage
-
-If you use this project in your own work, please consider citing it as:
-
-latex
-Copy
-Edit
-@misc{nisthajain2025educhainmcp,
-  author       = {Nistha Jain},
-  title        = {EduChain MCP Server: AI-powered educational content interface},
-  year         = {2025},
-  howpublished = {\url{https://github.com/nisthajain12/educhain-mcp-server}}
-}
 
