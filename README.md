@@ -13,24 +13,27 @@ It allows users to generate educational content such as:
 
 ## 🧱 Folder Structure
 
+```
 educhain_mcp_server/
-│
-├── mcp_server.py # Main Flask server exposing EduChain tools via API
-├── claude_desktop.py # Tkinter GUI client that simulates Claude Desktop
-│
+├── mcp_server.py         # Main Flask server exposing EduChain tools via API
+├── claude_desktop.py     # Tkinter GUI that simulates Claude Desktop
+├── api_server.py         # Alternate server interface (optional)
+├── main.py               # Entry point for testing/debugging
+├── tools/                # Integrated EduChain tools (MCQ, summary, flashcards, etc.)
+│   ├── mcq_generator.py
+│   ├── flashcard_generator.py
+│   ├── pdf_generator.py
+│   ├── summary_tool.py
+│   ├── lesson_plan_generator.py
+│   ├── youtube_quiz_generator.py
+│   ├── summarizer.py
 ├── utils/
-│ └── helpers.py # Utility to save output responses to the outputs/ folder
-│
-├── outputs/ # Auto-generated text files for each tool's output
-│
-├── requirements.txt # Required Python packages (Flask, EduChain, etc.)
-└── README.md # This file
+│   └── helpers.py        # Utility for saving tool outputs
+├── outputs/              # Auto-generated `.txt` content
+├── requirements.txt      # Required Python packages
+└── README.md             # Project documentation
+```
 
-yaml
-Copy
-Edit
-
----
 
 ## 🚀 Features
 
