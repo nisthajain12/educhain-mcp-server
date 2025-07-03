@@ -138,24 +138,25 @@ Each tool (e.g., MCQ Generator, Lesson Planner) automatically saves responses vi
 Feel free to reach out for collaboration or questions!
 
 ---
+---
+
 ## 📚 Citation
+
 This project makes use of the following external tools and references:
 
-EduChain
-AI-based educational content generation engine.
-🔗 GitHub Repository
-📦 PyPI Package
-📖 Official documentation and usage examples provided by the EduChain team.
+- **EduChain**  
+  AI-based educational content generation engine.  
+  🔗 [GitHub Repository](https://github.com/bollwarm/educhain)  
+  📦 [PyPI Package](https://pypi.org/project/educhain/)  
+  📖 Official documentation and usage examples provided by the EduChain team.
 
-Claude Desktop MCP Reference
-MCP (Multi-Modal Control Protocol) UI simulation is inspired by Claude-style desktop interactions.
-This implementation uses a local Tkinter GUI to simulate Claude-like functionality.
+- **Claude Desktop MCP Reference**  
+  MCP (Multi-Modal Control Protocol) UI simulation is inspired by Claude-style desktop interactions.  
+  This implementation uses a local Tkinter GUI to simulate Claude-like functionality.
 
 If you're using this project in your own research or application, you may cite it as:
 
-bibtex
-Copy
-Edit
+```bibtex
 @misc{nisthajain2025educhainmcp,
   author       = {Nistha Jain},
   title        = {EduChain MCP Server: AI-powered educational content interface},
@@ -164,6 +165,7 @@ Edit
   note         = {Combines EduChain with a local MCP-compliant server and Claude-style desktop UI.}
 }
 
+```
 ## ⚖️ License
 
 This project is licensed under the **MIT License**.
@@ -181,6 +183,7 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 (Full license text at https://opensource.org/licenses/MIT)
+```
 ⭐️ Show Your Support
 If you found this useful, give it a ⭐️ on GitHub!
 
