@@ -1,0 +1,73 @@
+==============================
+📄 PDF Generator Example
+==============================
+Command: Enter the topic for the PDF: Photosynthesis
+
+Output saved to: outputs/pdf_output.txt
+Content:
+Title: Photosynthesis
+
+Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. The process typically involves the intake of carbon dioxide and water, producing glucose and oxygen as byproducts.
+
+==============================
+📝 Summarizer Example
+==============================
+Command: Enter the topic to summarize: Quantum Computing
+
+Output saved to: outputs/summary.txt
+Content:
+Quantum computing leverages quantum mechanics to process information exponentially faster than classical computers. It uses quantum bits (qubits), superposition, and entanglement to perform complex computations in parallel.
+
+==============================
+📚 Flashcard Generator Example
+==============================
+Command: Enter the topic for flashcards: World War II
+
+Output saved to: outputs/flashcards.txt
+Content:
+Q: When did World War II begin?
+A: 1939
+
+Q: Who were the Allied Powers?
+A: The US, UK, Soviet Union, and others.
+
+==============================
+▶️ YouTube Quiz Generator Example
+==============================
+Command: Enter the YouTube video URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+Output saved to: outputs/youtube_quiz.txt
+Content:
+Q: What is the primary focus of the video?
+A: [Generated Answer]
+
+==============================
+❓ MCQ Generator Example
+==============================
+Command: Enter the topic for MCQs: Newton's Laws
+
+Output saved to: outputs/mcqs.txt
+Content:
+Q: What does Newton's First Law state?
+A. Objects in motion stay in motion unless acted on by a force  
+B. F = ma  
+C. Every action has an equal and opposite reaction  
+D. None of the above  
+Answer: A
+
+==============================
+📘 Lesson Plan Generator Example
+==============================
+Command: Enter the topic for a lesson plan: The Solar System
+
+Output saved to: outputs/lesson_plan.txt
+Content:
+Lesson Title: The Solar System
+
+Objectives:
+- Understand the structure of the solar system
+- Identify the planets in order from the sun
+
+Activities:
+- Visual demonstration using a scale model
+- Q&A discussion
