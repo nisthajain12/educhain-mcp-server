@@ -11,6 +11,40 @@ It allows users to generate educational content such as:
 - 📎 Simulated PDFs
 - 📺 Quizzes from YouTube videos
 
+## 🧱 Folder Structure
+
+educhain_mcp_server/
+│
+├── mcp_server.py # Main Flask server exposing EduChain tools via API
+├── claude_desktop.py # Tkinter GUI client that simulates Claude Desktop
+│
+├── utils/
+│ └── helpers.py # Utility to save output responses to the outputs/ folder
+│
+├── outputs/ # Auto-generated text files for each tool's output
+│
+├── requirements.txt # Required Python packages (Flask, EduChain, etc.)
+└── README.md # This file
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Features
+
+| Tool               | Endpoint                  | Functionality                              |
+|--------------------|---------------------------|---------------------------------------------|
+| Generate MCQs      | `/generate-mcqs`          | Creates multiple-choice questions           |
+| Lesson Plan        | `/generate-lesson-plan`   | Outputs a structured lesson plan            |
+| Topic Summary      | `/summarize-topic`        | Summarizes a topic                          |
+| Flashcards         | `/generate-flashcards`    | Flashcard Q&A pairs                         |
+| Simulate PDF       | `/generate-pdf`           | Returns simulated PDF-like formatted text   |
+| YouTube Quiz       | `/generate-youtube-quiz`  | Extracts quiz questions from a video URL    |
+
+---
+
 🚀 Setup Instructions
 1. Clone the Repository
 bash
@@ -53,28 +87,22 @@ Edit
 python claude_desktop_sim.py
 Use this to test the MCP tools via a desktop-like interface.
 
-🧪 Available Tools
-Endpoint	Functionality
-/generate-mcqs	Generate multiple-choice questions
-/generate-lesson-plan	Create a lesson plan
-/generate-pdf	Simulate PDF creation
-/summarize-topic	Generate a study summary
-/generate-flashcards	Flashcards for a topic
-/generate-youtube-quiz	MCQs from a YouTube video
+📝 Output Storage
+Each tool's result is automatically saved as a .txt file in the /outputs folder using the helper utility.
 
-📂 Folder Structure
-graphql
-Copy
-Edit
-educhain-mcp-server/
-├── educhain/               # (if installed from source, otherwise external)
-├── tools/                  # Tool-specific logic (API wrappers etc.)
-├── utils/                  # Helper functions like file saving
-├── claude_desktop_sim.py   # Claude-like interface using Tkinter
-├── mcp_server.py           # Main Flask MCP Server
-├── requirements.txt        # Python dependencies
-├── README.md               # You’re reading it!
-└── outputs/                # Saved text files from responses
+💡 Notes
+If you're running in offline mode or without OpenAI API access, dummy responses are returned for each tool.
+
+Proper error handling is built-in for unsupported or failed requests.
+
+✨ Example Commands
+From Claude Desktop (GUI), you can:
+
+Enter a topic like Photosynthesis and press "Generate MCQs"
+
+View structured output and saved result in /outputs/
+
+
 📬 Contact
 For questions or collaboration, feel free to reach out:
 📧 nisthajain2812@gmail.com
