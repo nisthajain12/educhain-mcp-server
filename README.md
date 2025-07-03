@@ -159,3 +159,24 @@ furnished to do so, subject to the following conditions:
 ⭐️ Show Your Support
 If you found this useful, give it a ⭐️ on GitHub!
 
+## 📝 Citation
+This project makes use of the following external tools and libraries:
+
+EduChain: AI-based educational content generator
+EduChain GitHub | Documentation
+
+Multi-Modal Control Protocol (MCP):
+Reference: Anthropic's Claude Desktop and related MCP SDK usage
+
+If you use this project in your own work, please consider citing it as:
+
+latex
+Copy
+Edit
+@misc{nisthajain2025educhainmcp,
+  author       = {Nistha Jain},
+  title        = {EduChain MCP Server: AI-powered educational content interface},
+  year         = {2025},
+  howpublished = {\url{https://github.com/nisthajain12/educhain-mcp-server}}
+}
+
