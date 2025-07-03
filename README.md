@@ -45,7 +45,7 @@ Edit
 
 ---
 
-🚀 Setup Instructions
+##🚀 Setup Instructions
 1. Clone the Repository
 bash
 Copy
@@ -87,15 +87,15 @@ Edit
 python claude_desktop_sim.py
 Use this to test the MCP tools via a desktop-like interface.
 
-📝 Output Storage
-Each tool's result is automatically saved as a .txt file in the /outputs folder using the helper utility.
 
-💡 Notes
+##💡 Notes
+
 If you're running in offline mode or without OpenAI API access, dummy responses are returned for each tool.
 
 Proper error handling is built-in for unsupported or failed requests.
 
-✨ Example Commands
+##✨ Example Commands
+
 From Claude Desktop (GUI), you can:
 
 Enter a topic like Photosynthesis and press "Generate MCQs"
@@ -103,6 +103,70 @@ Enter a topic like Photosynthesis and press "Generate MCQs"
 View structured output and saved result in /outputs/
 
 
-📬 Contact
+##📬 Contact
 For questions or collaboration, feel free to reach out:
 📧 nisthajain2812@gmail.com
+
+---
+
+## 🏷️ Badges
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![EduChain](https://img.shields.io/badge/Powered_by-EduChain-purple?style=flat&logo=github)
+![MCP-Compatible](https://img.shields.io/badge/MCP-Compatible-green?style=flat)
+
+---
+
+## 📂 Output Samples
+
+All generated content is saved to the `outputs/` directory in `.txt` format.
+
+Each tool (e.g., MCQ Generator, Lesson Planner) automatically saves responses via the `helpers.py` utility.
+
+### 📸 Screenshot of Output (Claude Desktop)
+
+![Sample Output](https://via.placeholder.com/800x400.png?text=Claude+Desktop+Sample+Output)
+
+---
+
+## 👥 Contributors
+
+| Name         | Role                        | Contact                       |
+|--------------|-----------------------------|-------------------------------|
+| **Nistha Jain** | Developer & Integrator      | [nisthajain2812@gmail.com](mailto:nisthajain2812@gmail.com) |
+
+Feel free to reach out for collaboration or questions!
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License**.
+
+```text
+MIT License
+
+Copyright (c) 2025 Nistha Jain
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+(Full license text at https://opensource.org/licenses/MIT)
+⭐️ Show Your Support
+If you found this useful, give it a ⭐️ on GitHub!
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ After Pasting:
+- Replace the screenshot link (`https://via.placeholder.com/...`) with an actual GitHub image link or upload via the GitHub UI.
+- You can also use `![alt text](relative/path/to/image.png)` if you add screenshots inside your repo (`/assets/` or `/docs/` folder).
+
+Let me know if you'd like help embedding a **live screenshot** or generating a **LI
