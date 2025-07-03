@@ -125,7 +125,7 @@ Each tool (e.g., MCQ Generator, Lesson Planner) automatically saves responses vi
 
 ### 📸 Screenshot of Output (Claude Desktop)
 
-![Sample Output](https://via.placeholder.com/800x400.png?text=Claude+Desktop+Sample+Output)
+![Claude_desktop_sim](https://raw.githubusercontent.com/nisthajain12/educhain-mcp-server/refs/heads/main/Screenshot%20(79).png)
 
 ---
 
