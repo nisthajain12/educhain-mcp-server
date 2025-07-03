@@ -45,7 +45,7 @@ Edit
 
 ---
 
-##🚀 Setup Instructions
+## 🚀 Setup Instructions
 1. Clone the Repository
 bash
 Copy
@@ -88,13 +88,13 @@ python claude_desktop_sim.py
 Use this to test the MCP tools via a desktop-like interface.
 
 
-##💡 Notes
+## 💡 Notes
 
 If you're running in offline mode or without OpenAI API access, dummy responses are returned for each tool.
 
 Proper error handling is built-in for unsupported or failed requests.
 
-##✨ Example Commands
+## ✨ Example Commands
 
 From Claude Desktop (GUI), you can:
 
@@ -103,7 +103,7 @@ Enter a topic like Photosynthesis and press "Generate MCQs"
 View structured output and saved result in /outputs/
 
 
-##📬 Contact
+## 📬 Contact
 For questions or collaboration, feel free to reach out:
 📧 nisthajain2812@gmail.com
 
@@ -159,14 +159,3 @@ furnished to do so, subject to the following conditions:
 ⭐️ Show Your Support
 If you found this useful, give it a ⭐️ on GitHub!
 
-yaml
-Copy
-Edit
-
----
-
-### ✅ After Pasting:
-- Replace the screenshot link (`https://via.placeholder.com/...`) with an actual GitHub image link or upload via the GitHub UI.
-- You can also use `![alt text](relative/path/to/image.png)` if you add screenshots inside your repo (`/assets/` or `/docs/` folder).
-
-Let me know if you'd like help embedding a **live screenshot** or generating a **LI
